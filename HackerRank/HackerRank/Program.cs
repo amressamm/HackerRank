@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-
+/// <summary>
+/// //////
+/// </summary>
 namespace HackerRank
 {
 	class Program
@@ -16,6 +18,7 @@ namespace HackerRank
 				string[] a_temp = Console.ReadLine().Split(' ');
 				a[a_i] = Array.ConvertAll(a_temp, Int32.Parse);
 			}
+			int qqq = 5555;
 		}
 	}
 }
